@@ -13,7 +13,7 @@ project of a simple executable. The codespace will contain:
 
 ## How To
 
-### Either Create The Codespace
+### Create A Codespace
 
 If you have [codespaces](https://github.com/features/codespaces) enabled on github, you should see the
 "Create codespace on master" button (see pic). If you don't have codespaces, you can apply for a [beta membership](https://github.com/features/codespaces/signup) as an individual or use the "Run locally" method.
@@ -24,7 +24,7 @@ If you have [codespaces](https://github.com/features/codespaces) enabled on gith
 Also check the github pricing, as Codespaces may encur costs (post-beta).
 
 
-### Or Run Container
+### Alternative: Run In Local Container
 
 Instead of running the docker container remotely on github you can also run
 it locally on your computer. For that:

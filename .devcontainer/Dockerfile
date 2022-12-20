@@ -47,8 +47,8 @@ RUN DEBIAN_FRONTEND=noninteractive \
    && chmod 755 installer-all \
    && ./installer-all /usr no 
 
-RUN wget "https://github.com/mulle-cc/mulle-clang-project/releases/download/13.0.0.1/mulle-clang-13.0.0.1-bullseye-amd64.deb"  \
-    && dpkg --install "mulle-clang-13.0.0.1-bullseye-amd64.deb" 
+RUN wget "https://github.com/mulle-cc/mulle-clang-project/releases/download/14.0.6.2/mulle-clang-14.0.6.2-bullseye-amd64.deb"  \
+    && dpkg --install "mulle-clang-14.0.6.2-bullseye-amd64.deb"
 
 # remove original gdb from c++, need to do this as mulle-gdb clobbers some helper files
 RUN DEBIAN_FRONTEND=noninteractive \

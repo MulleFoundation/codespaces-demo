@@ -1,0 +1,6 @@
+#! /bin/sh
+
+mulle-project-dockerhub --vendor mulleobjc \
+                        --project codespace-foundation-executable \
+                        "$@" \
+                        .devcontainer
